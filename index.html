@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Irvan Fauzi" />
+    <title>Website | Irvan Fauzi</title>
+    <!--Link-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <a href="index.html"><span>•</span> Irvan Fauzi</a>
+    </nav>
+
+    <section>
+      <div class="title">
+        <h1>Saya seorang <span>Mahasiswa</span></h1>
+      </div>
+      <div class="intro">
+        <div class="introBox">
+          <p>
+            Halo, Perkenalkan Nama saya Irvan Fauzi. Saya berasal dari Tangerang. Makanan favorit saya adalah Nasi, sedangkan minuman favorit saya adalah Air. Saya sangat suka liburan ke gunung dan pantai dengan teman-teman saya. Saya juga suka menonton film di waktu senggang. saya memiliki hobi Tidur, bahkan saya juga banyak memenangkan lomba Tidur Sepanjang Hari. Saya pikir cukup untuk informasi tentang saya. Terima kasih.
+          </p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skillBox">
+          <h1><span>•</span> Keterampilan</h1>
+          <div class="imgBox">
+            <img src="images/html.svg" title="HTML" />
+            <img src="images/css.svg" title="CSS" />
+            <img src="images/bootstrap.svg" title="Bootstrap" />
+          </div>
+          <div class="imgBox">
+            <img src="images/javascript.svg" title="JavaScript" />
+            <img src="images/php.svg" title="PHP" />
+            <img src="images/java.svg" title="Java" />
+          </div>
+        </div>
+      </div>
+      <div class="Tentang">
+        <div class="profil">
+          <h1><span>•</span> Tentang</h1>
+        </div>
+        <div class="imgBox">
+          <img src="images/users-img.jpg" />
+        </div>
+        <div class="textBox">
+          <p>
+            Saya seorang mahasiswa Teknik Informatika di salah satu Universitas yang ada di Tangerang. Sebelumnya saya tidak memiliki basic apapun tentang pemrograman karena asal sekolah saya MA bukan SMK. Alasan saya masuk kuliah dengan memilih
+            program studi Teknik Informatika karena peluang kerja yang begitu luas. Walaupun saya tidak memiliki basic pemrograman, saya tetap berusaha untuk belajar tahap demi tahap. Menurut saya programming itu asik, seru dan bisa dimana saja
+            kapan saja.
+          </p>
+        </div>
+        <div class="sci">
+          <a href="https://www.facebook.com/irvaaanfauzi" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/irvaaanfauzi" title="Instagram"><i class="fab fa-instagram instagram"></i></a>
+          <a href="https://www.linkedin.com/in/irvanfauzi" title="Linkedin"><i class="fab fa-linkedin linkedin"></i></a>
+          <a href="https://twitter.com/irvaaanfauzi" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="irvaaanfauzi@gmail.com" title="Email"><i class="far fa-envelope"></i></a>
+          <a href="https://github.com/irvaaanfauzi" title="Github"><i class="fab fa-github"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=6285714531812" title="WhatsApp"><i class="fab fa-whatsapp whatsapp"></i></a>
+          <a href="https://telegram.me/fauzi080702" title="Phone"><i class="fab fa-telegram telegram"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <h1>Dibuat dengan <span style="color: #e25555">🧠</span> oleh Irvan Fauzi</h1>
+      <div class="myBtn">
+        <h2 onclick="topFunction()" id="myBtn" title="Go to top">Pergi ke Atas <i class="fas fa-chevron-up"></i></i></h2>
+      </div>
+    </footer>
+
+    <script>
+      // Javascript add navbar shadow
+      window.addEventListener("scroll", (e) => {
+        const nav = document.querySelector(".navbar");
+        if (window.pageYOffset > 0) {
+          navbar.classList.add("add-shadow");
+        } else {
+          navbar.classList.remove("add-shadow");
+        }
+      });
+
+      //Mengambil element
+      var mybutton = document.getElementById("myBtn");
+
+      // Ketika di klik, scroll ke bagian paling atas
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
