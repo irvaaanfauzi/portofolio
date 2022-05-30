@@ -208,11 +208,17 @@ section {
   font-size: 1.2rem;
 } */
 
+.about .sci a .facebook:hover {
+  color: #3b5998
+}
 .about .sci a .instagram:hover {
   color: #fd1d1d;
 }
 .about .sci a .linkedin:hover {
   color: #00a0dc;
+}
+.about .sci a .twitter:hover {
+  color: #00acee
 }
 .about .sci a .whatsapp:hover {
   color: #00e676;
