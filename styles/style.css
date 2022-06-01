@@ -23,7 +23,7 @@ body {
   display: flex;
   align-items: center;
   padding: 11px 0;
-  background-color: #0f0e20;
+  background-color: #f05454;
   justify-content: center;
   text-align: center;
   font-weight: 600;
@@ -43,7 +43,7 @@ body {
 
 .navbar span {
   font-weight: 900;
-  color: #f05454;
+  color: #0f0e20;
 }
 
 .add-shadow {
